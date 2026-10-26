@@ -2,7 +2,9 @@ package com.example.lab_8
 
 //Small Local change as seen in walkthrough
 
+
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
+    fun restoreMana(amount: Int) { }
     fun castSpell(spell: String): Int {
         when (spell) {
             "Explosion" -> {
